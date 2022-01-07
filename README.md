@@ -15,13 +15,14 @@ You can simply download all the file in the file. And you get the result by runi
 ```
 ./test.sh
 ```
-If the code above ] does not work, then you can try:
+If the code above does not work, then you can try:
 ```
 flex lisp.l
 yacc -d lisp.y
 g++ lex.yy.c y.tab.c -o test
-./test < input.data.lsp
+./test < input_data.lsp
 ```
+Note: you can get the input_data.lsp in the test_data.zip.
 # Operation Overview
 ![](https://i.imgur.com/iE3kiiC.png)
 ![](https://i.imgur.com/4eJouQ8.png)\
