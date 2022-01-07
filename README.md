@@ -11,7 +11,17 @@ Mini-lisp is a simple LISP interpreter which is the final project of complier in
 - [x] Function
 - [x] Named Function
 # Usage
-
+You can simply download all the file in the file. And you get the result by runing the code below:
+```
+./test.sh
+```
+If the code above ] does not work, then you can try:
+```
+flex lisp.l
+yacc -d lisp.y
+g++ lex.yy.c y.tab.c -o test
+./test < input.data.lsp
+```
 # Operation Overview
 ![](https://i.imgur.com/iE3kiiC.png)
 ![](https://i.imgur.com/4eJouQ8.png)\
